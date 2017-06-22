@@ -51,7 +51,8 @@
 body {
     max-width: 1920px;
     font-weight: 400;
-    background: url(../images/bg-footer.png) repeat;
+    /*background: url(../images/bg-footer.png) repeat;*/
+    background: #fff;
     word-break: break-word;
     margin: 0;
     color: #313131;
@@ -963,6 +964,63 @@ img {
     border-radius: 4px;
     font: normal 14px/30px 'RobotoCondensed';
     float: right;
+}
+.block-sidebar.block-support .block-contents {
+    padding: 10px 15px;
+    border: 1px solid #dedede;
+    background: #fff;
+    margin-top: 5px;
+}
+.block-support .support .item-support {
+    padding: 5px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.block-support .support .item-support:last-child {
+    border-bottom: none;
+}
+.block-support .support .item-support > img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #dedede;
+}
+.block-support .support .item-support .item-support-info {
+    float: left;
+    width: -moz-calc(100% - 90px);
+    width: -webkit-calc(100% - 90px);
+    width: -o-calc(100% - 90px);
+    width: calc(100% - 90px);
+}
+.block-support .support .item-support .item-support-info h3 {
+    color: #3a3a3a;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.block-support .support .item-support .item-support-info p {
+    color: #ff0000;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.block-support .support .item-support .item-support-info img {
+    width: 30px;
+    height: 30px;
+}
+.block-support .support .item-support .item-support-info img:hover {
+    opacity: 0.8;
+    transition: all 0.4s;
+}
+.block-box-search.block-box-search-home .block-contents {
+    padding: 10px;
+}
+.block-box-search.block-box-search-home .form-group {
+    margin-bottom: 10px;
+}
+.block-2-col {
+    padding-top: 15px;
 }
 
 /*===== Breadcrumb ======*/

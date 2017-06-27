@@ -227,6 +227,9 @@
 	    float: left;
 	    margin-top: 10px;
 	}
+	.block-call {
+		display: block;
+	}
 }
 
 /*----------------

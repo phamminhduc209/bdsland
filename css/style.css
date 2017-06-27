@@ -2955,3 +2955,21 @@ h3.page-title-child {
 .block-breadcrumb-page .breadcrumb li.active , .block-breadcrumb-page .breadcrumb .active a {
   color: #000000;
 }
+
+.block-call {
+  position: fixed;
+  bottom: 5px;
+  right: 50px;
+  background: #015f95;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 9;
+  display: none;
+}
+.block-call i {
+  margin-right: 5px;
+}
+.block-call a {
+  color: #fff;
+}

@@ -2746,6 +2746,12 @@ h3.page-title-child {
 .block-langding .nav-tabs li a.Payment {
     line-height: 1.2em;
 }
+.page-block {
+    text-align: justify;
+}
+.tabs_logo {
+    width: 130px !important;
+}
 .tabs-item-logo {
     padding: 5px;
     border: solid 1px #ddd;

@@ -48,7 +48,7 @@
 	}
 	#advLeft,
 	#advRight {
-		display: none;
+		display: none !important;
 	}
 	.block-news-new li.news-new-item .news-new-item-description {
 	    width: 71%;
@@ -399,6 +399,9 @@
 		width: 130px;
 		display: inline-block;
 	}
+	.tabs_logo {
+	  width: 100px !important;
+	}
 }
 
 
@@ -543,6 +546,10 @@
 		width: 50% !important;
 		border-bottom: solid 2px #fff;
 		border-left: solid 2px #fff;
+	}
+	.block-langding .nav-tabs li .tabs-item-logo .icon img {
+	  width: auto;
+	  height: auto;	
 	}
 }
 

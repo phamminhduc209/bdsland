@@ -59,7 +59,11 @@
     });
 
     /*  [ Sticky Menu ] */
-    $('.fix-header ').sticky({ topSpacing: 0 });
+    $('.fix-header').sticky({ topSpacing: 0 });
+    $('.scroll_fix').sticky({ 
+        topSpacing: 45,
+        bottomSpacing: 800,
+     });
 
     /*  Collapse */
     $('.collapse.in').prev('.panel-heading').addClass('active');

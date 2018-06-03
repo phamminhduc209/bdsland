@@ -61,8 +61,8 @@
     /*  [ Sticky Menu ] */
     $('.fix-header').sticky({ topSpacing: 0 });
     $('.scroll_fix').sticky({ 
-        topSpacing: 45,
-        bottomSpacing: 800,
+        topSpacing: 43,
+        // bottomSpacing: 800,
      });
 
     /*  Collapse */

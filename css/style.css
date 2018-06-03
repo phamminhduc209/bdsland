@@ -226,9 +226,6 @@ img {
     transition: 0.3s;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
 }
-.sticky-wrapper.is-sticky .scroll_fix {
-    padding-bottom: 100px
-}
 #header .menu {
     position: relative;
 }
@@ -2705,7 +2702,7 @@ h3.page-title-child {
 .block-langding .nav-tabs>li.active>a:hover {
     color: #fff !important;
     cursor: default;
-    border: 1px solid #ddd;
+    border: 1px solid #1d5f93;
     border-bottom-color: transparent;
     background: #1d5f93 !important;
     -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.35);
@@ -2995,4 +2992,32 @@ h3.page-title-child {
 }
 .block-call a {
   color: #fff;
+}
+
+
+
+.sticky-wrapper.is-sticky .scroll_fix {
+    padding-bottom: 0;
+    z-index: 99;
+}
+.sticky-wrapper.is-sticky .scroll_fix .tabs_logo .tabs-item-logo {
+    height: 40px;
+}
+.sticky-wrapper.is-sticky .scroll_fix .tabs_logo .tabs-item-logo .icon {
+    display: block;
+}
+.sticky-wrapper.is-sticky .scroll_fix .tabs_logo .tabs-item-logo .icon img {
+    width: 40%;
+    height: auto;
+}
+.sticky-wrapper.is-sticky .scroll_fix li .icon {
+    display: none;
+}
+.sticky-wrapper.is-sticky .scroll_fix li a {
+    height: 40px;
+    line-height: 40px;
+}
+.block-langding .scroll_fix>li>a:hover:after,
+.block-langding .scroll_fix>li.active a:after {
+    bottom: -25px !important;
 }
